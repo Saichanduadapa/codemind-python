@@ -7,5 +7,3 @@ if s==n:
     print('Neon Number')
 else:
     print("Not Neon Number")
-    
-    

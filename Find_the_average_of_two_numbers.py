@@ -1,3 +1,2 @@
 a,b=map(int,input().split())
-avg=(a+b)/2
-print("%.4f"%avg)
+print("%.4f"%((a+b)/2))

@@ -1,5 +1,5 @@
 n=input()
 if n==n[::-1]:
-    print("Palindrome")
+    print(True)
 else:
-    print("Not Palindrome")
+    print(False)

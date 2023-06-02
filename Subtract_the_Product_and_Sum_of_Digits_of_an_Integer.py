@@ -1,7 +1,7 @@
 n=input()
-p=1
 s=0
+m=1
 for i in n:
-    p*=int(i)
     s+=int(i)
-print(p-s)
+    m*=int(i)
+print(m-s)

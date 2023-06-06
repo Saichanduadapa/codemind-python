@@ -1,4 +1,6 @@
+def can_cross(a,b,c):
+    return(c-b)//a
 a=int(input())
 b=int(input())
 c=int(input())
-print(int((c-b)/a))
+print(can_cross(a,b,c))

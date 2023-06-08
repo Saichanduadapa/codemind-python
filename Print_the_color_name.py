@@ -1,17 +1,20 @@
+def color(n):
+    if n=='V':
+        return("Violet")
+    elif n=='I':
+        return("Indigo")
+    elif n=='B':
+        return ("Blue")
+    elif n=='G':
+        return ("Green")
+    elif n=='Y':
+        return("Yellow")
+    elif n=='O':
+        return("Orange")
+    elif n=='R':
+        return ("Red")
+    else:
+        return(-1)
+        
 n=input()
-if n=='V':
-    print("Voilet")
-elif n=='I':
-    print("Indigo")
-elif n=='B':
-    print("Blue")
-elif n=='G':
-    print("Green")
-elif n=='Y':
-    print("Yellow")
-elif n=='O':
-    print("Orange")
-elif n=='R':
-    print("Red")
-else:
-    print("-1")
+print(color(n))

@@ -1,2 +1,3 @@
 n=input()
-print(n[::-1])
+res=n.split()[::-1]
+print(' '.join(res))

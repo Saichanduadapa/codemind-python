@@ -1,0 +1,7 @@
+n=input()
+r=n.lower()
+c=0
+for i in set(r):
+    if i not in ' ':
+        c+=1
+print(c)

@@ -1,0 +1,10 @@
+n=input()
+s=''
+for i in n:
+    if n.count(i)==1:
+        s+=i
+        break
+if len(s)!=0:
+    print(s)
+else:
+    print(-1)

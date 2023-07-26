@@ -1,0 +1,10 @@
+n=int(input())
+lst=list(map(int,input().split()))
+res,r=[],[]
+for i in lst:
+    if i!=0:
+        res.append(i)
+    else:
+        r.append(i)
+res.extend(r)
+print(*res)

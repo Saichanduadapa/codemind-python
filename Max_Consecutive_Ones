@@ -1,0 +1,12 @@
+n=int(input())
+lst=list(map(int,input().split()))
+res=[]
+c=0
+for i in lst:
+    if i==1:
+        c+=1
+    else:
+        c=0
+    res.append(c)
+print(max(res))
+    

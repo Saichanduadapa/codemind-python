@@ -1,0 +1,7 @@
+n=int(input())
+lst=list(map(int,input().split()))
+k=int(input())
+if k in lst:
+    print(lst.index(k))
+else:
+    print(-1)

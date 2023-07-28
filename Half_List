@@ -1,0 +1,8 @@
+n=int(input())
+lst=list(map(int,input().split()))
+res=[]
+for i in range(n-1,(n//2)-1,-1):
+    res.append(lst[i])
+    lst.pop(i)
+l=res+lst
+print(*l)

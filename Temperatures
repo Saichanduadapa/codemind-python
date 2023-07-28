@@ -1,0 +1,12 @@
+n=int(input())
+lst=list(map(int,input().split()))
+res=[]
+for i in range(n-1):
+    for j in range(i+1,n):
+        if lst[i]<lst[j]:
+            res.append(j-i)
+            break
+    if len(res)!=i+1:
+        res.append(0)
+res.append(0)
+print(*res)

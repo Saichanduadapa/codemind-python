@@ -1,0 +1,12 @@
+n=int(input())
+lst=list(map(int,input().split()))
+k=int(input())
+r=lst[::-1]
+res=[]
+if k not in lst:
+    res.append(-1)
+    res.append(-1)
+else:
+    res.append(lst.index(k))
+    res.append((n-1)-(r.index(k)))
+print(*res)

@@ -1,0 +1,15 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    lst=list(map(int,input().split()))
+    res=[]
+    rev=lst[n::-1]
+    for i in range(n//2):
+        res.append(rev[i])
+        res.append(lst[i])
+    for i in lst:
+        if i not in res:
+            res.append(i)
+    print(*res)
+    
+    

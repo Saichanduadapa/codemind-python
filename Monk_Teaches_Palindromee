@@ -1,0 +1,9 @@
+n=int(input())
+for i in range(n):
+    s=input()
+    if s==s[::-1] and len(s)%2==0:
+        print('YES EVEN')
+    elif s==s[::-1] and len(s)%2!=0:
+        print('YES ODD')
+    else:
+        print('NO')

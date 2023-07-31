@@ -1,0 +1,10 @@
+s=input()
+s1=''
+for i  in s:
+    if s.count(i)==1:
+        s1+=i
+        break
+if len(s1)!=0:
+    print(s.index(s1))
+else:
+    print(-1)

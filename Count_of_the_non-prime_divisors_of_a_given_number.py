@@ -1,17 +1,15 @@
-n=int(input())
-lst,ls=[],[]
-for i in range(1,n+1):
-    if n%i==0:
-        lst.append(i)
-for i in lst:
-    c=0
-    for j in range(1,i+1):
-        if i%j==0:
-            c+=1
-    if c==2:
-        pass
+import math
+def is_prime(n):
+    if(n<2):
+        return False
     else:
-        ls.append(i)
-        
-print(len(ls))
-        
+        for i  in range(2,int(math.sqrt(n))+1):
+            if(n%i==0):
+                return False
+        return True
+n=int(input())
+c=0
+for i in range(1,n+1):
+    if(n%i==0 and is_prime(i)==False):
+        c+=1
+print(c)

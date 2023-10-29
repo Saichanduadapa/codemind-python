@@ -1,6 +1,4 @@
-def capacity(a,b,c):
-    return a*b*c
-a=int(input())
+t=int(input())
+s=int(input())
 b=int(input())
-c=int(input())
-print(f"{capacity(a,b,c)} KB")
+print(f"{t*s*b} KB")

@@ -1,8 +1,6 @@
-def expe(a,b):
-    if b*30<=a:
-        return("YES")
-    else:
-        return("NO")
-a=int(input())
-b=int(input())
-print(expe(a,b))
+x=int(input())
+y=int(input())
+if(30*y<=x):
+    print("YES")
+else:
+    print("NO")

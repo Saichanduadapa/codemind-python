@@ -7,4 +7,3 @@ def bags(a,b,c):
 
 a,b,c=map(int,input().split())
 print(bags(a,b,c))
-

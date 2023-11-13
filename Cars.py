@@ -1,5 +1,5 @@
-n=int(input())
-if n/4==n//4:
-    print(n//4)
+a=int(input())
+if a/4==a//4:
+    print(a//4)
 else:
-    print((n//4)+1)
+    print(a//4+1)

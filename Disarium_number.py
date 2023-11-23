@@ -1,10 +1,5 @@
 n=input()
 s=0
-for i in n:
-    v=int(i)
-    p=n.index(i)+1
-    s+=v**p
-if int(n)==s:
-    print(True)
-else:
-    print(False)
+for i in range(len(n)):
+    s+=int(n[i])**(i+1)
+print(int(n)==s)

@@ -1,6 +1,7 @@
 n=int(input())
-lst=list(map(int,input().split()))
-s=''
-for i in lst:
-    s+=str(i)
-print(int(s,2))
+s=input()
+r=""
+for i in s:
+    if i!=" ":
+        r+=i
+print(int(r,2))

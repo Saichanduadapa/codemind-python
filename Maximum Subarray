@@ -1,0 +1,7 @@
+n=int(input())
+lst=list(map(int,input().split()))
+m=-10**9
+for i in range(n):
+    for j in range(i,n):
+        m=max(sum(lst[i:j+1]),m)
+print(m)

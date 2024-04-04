@@ -1,0 +1,8 @@
+for _ in range(int(input())):
+    n,k=map(int,input().split())
+    lst=list(map(int,input().split()))
+    while(k!=0):
+        lst.insert(0,lst[n-1])
+        del lst[n]
+        k-=1
+    print(*lst)

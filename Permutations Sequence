@@ -1,0 +1,9 @@
+from itertools import permutations
+n,k=map(int,input().split())
+s=""
+for i in range(1,n+1):
+    s+=str(i)
+res=permutations(s)
+res=list(res)
+
+print("".join(res[k-1]))

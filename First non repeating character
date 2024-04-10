@@ -1,0 +1,11 @@
+for _ in range(int(input())):
+    n=int(input())
+    s=input()
+    p=0
+    for i in s:
+        if s.count(i)==1:
+            print(i)
+            p=1
+            break
+    if p==0:
+        print(-1)

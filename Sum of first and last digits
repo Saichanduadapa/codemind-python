@@ -1,0 +1,4 @@
+n = input()
+res = int(n[0])
+res+=int(n[-1])
+print(res)
